@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# GenAI Capstone - Generated data and model outputs
+data/raw/
+data/processed/
+data/synthetic/
+models/
+results/
+eda_outputs/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
